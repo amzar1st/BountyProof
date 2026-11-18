@@ -1,0 +1,121 @@
+{
+  "ctor": {
+    "params": [],
+    "kwparams": {}
+  },
+  "methods": {
+    "claim_reward": {
+      "params": [],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    },
+    "create_bounty": {
+      "params": [
+        [
+          "repository",
+          "string"
+        ],
+        [
+          "base_commit",
+          "string"
+        ],
+        [
+          "developer",
+          "address"
+        ],
+        [
+          "requirements",
+          "string"
+        ],
+        [
+          "criteria",
+          [
+            {
+              "$rep": "string"
+            }
+          ]
+        ],
+        [
+          "workflow",
+          "string"
+        ],
+        [
+          "deadline",
+          "int"
+        ],
+        [
+          "review_deadline",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": true
+    },
+    "evaluate_solution": {
+      "params": [],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    },
+    "finalize_verdict": {
+      "params": [
+        [
+          "attempt",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    },
+    "get_bounty": {
+      "params": [],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "dict"
+    },
+    "get_verdict": {
+      "params": [],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "dict"
+    },
+    "resolve_expiry": {
+      "params": [],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    },
+    "submit_solution": {
+      "params": [
+        [
+          "pr_number",
+          "int"
+        ],
+        [
+          "commit",
+          "string"
+        ],
+        [
+          "run_id",
+          "int"
+        ],
+        [
+          "evidence_hash",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    }
+  }
+}
