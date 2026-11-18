@@ -1,0 +1,21 @@
+{
+  "network": "GenLayer Studio Next / Studio Dev",
+  "environment": "development sandbox",
+  "studio_version": "v0.123.0-rc.13",
+  "deployment_date": "2026-11-18",
+  "contract_address": "0xD3f16151B5c711B7C3Ef14c9b043A81419c32791",
+  "deployer_address": "0x6a396e113A1fDFDde23e6908550A48D0B3FcbeB0",
+  "deployment_transaction": "0x735162f2689a7fa927d3c70c6dbdf1f053c5435da1f5d59fe87e45f253299beb",
+  "explorer_url": "https://explorer-studio-next.genlayer.com/address/0xD3f16151B5c711B7C3Ef14c9b043A81419c32791",
+  "transaction_url": "https://explorer-studio-next.genlayer.com/tx/0x735162f2689a7fa927d3c70c6dbdf1f053c5435da1f5d59fe87e45f253299beb",
+  "transaction_status": "FINALIZED",
+  "genvm_result": "SUCCESS",
+  "consensus_result": "Accepted",
+  "execution_mode": "Normal (Full Consensus)",
+  "source_commit": "7554ae6c79b1b135f71027a0839500c04b1f2ce0",
+  "source_path": "contracts/bounty_proof.py",
+  "source_sha256": "eb679732252b8d333677b20cd6daa52d6757d1334c833a2cf798838e46af8632",
+  "observed_state": "DRAFT",
+  "reward_funded": false,
+  "live_settlement_verified": false
+}

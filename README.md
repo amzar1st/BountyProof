@@ -4,6 +4,18 @@
 
 One contract = one bounty, one designated developer, one immutable submission, one reward. This keeps the MVP small and prevents submission-slot squatting and reward splitting.
 
+## Deployed contract
+
+Deployed using GenLayer Studio's built-in account on **Studio Next / Studio Dev** (development sandbox) on 2026-11-18.
+
+- [Contract Explorer](https://explorer-studio-next.genlayer.com/address/0xD3f16151B5c711B7C3Ef14c9b043A81419c32791)
+- Address: `0xD3f16151B5c711B7C3Ef14c9b043A81419c32791`
+- [Deployment transaction](https://explorer-studio-next.genlayer.com/tx/0x735162f2689a7fa927d3c70c6dbdf1f053c5435da1f5d59fe87e45f253299beb): **FINALIZED**, GenVM **SUCCESS**, consensus **Accepted**.
+- `get_bounty()` returned `DRAFT` and the built-in account as owner. No bounty reward has been funded; no live settlement is claimed.
+- The deployed source matches commit `7554ae6c79b1b135f71027a0839500c04b1f2ce0`. See [deployment metadata](deployments/studio-next.json).
+
+Studio preview state may reset. This deployment provides sandbox evidence, not a persistent public-testnet deployment or an audit.
+
 ## What is implemented
 
 - Payable escrow creation with immutable requirements, 3–5 criteria, repository, base commit, workflow, developer and deadlines.
